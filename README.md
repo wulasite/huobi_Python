@@ -1,5 +1,9 @@
 # Huobi Python SDK v2
 
+sdk三年没开发人员维护，火币真的不行了吗？自己维护一下，省的每次都要改一下。
+
+pyton39中json.loads里没有encoding的参数，改为response.json()就好了，费事。
+
 This is Huobi Python SDK v2, you can import to your python project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking, and concurrently subscribing the market, account and order update from the Websocket connection.
 
 If you already use SDK v1, it is strongly suggested migrate to v2 as we refactor the implementation to make it simpler and easy to maintain. We will stop the maintenance of v1 in the near future. Please refer to the instruction on how to migrate v1 to v2 in section [Migrate from v1](#Migrate-from-v1)
